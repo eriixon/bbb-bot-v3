@@ -1,0 +1,30 @@
+{
+  "name": "BBB-FB-bot",
+  "version": "2.5.0",
+  "description": "Facebook messanger bot for Better Business Bureau",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "jshint --exclude node_modules .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergeyradkov/bwit"
+  },
+  "author": "Sergey and Nora",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^0.1.0",
+    "body-parser": "^1.15.0",
+    "config": "^1.20.4",
+    "es6-promise": "^3.2.1",
+    "express": "^4.13.4",
+    "isomorphic-fetch": "^2.2.1",
+    "parse-address": "0.0.5",
+    "request": "^2.72.0"
+  },
+  "engines": {
+    "node": "~6.4.0"
+  }
+}
