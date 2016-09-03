@@ -13,7 +13,7 @@ let bm = require('./lib/classes/botmanager');
 
 const currentSessions = {};
 
-app.set('port', process.env.PORT || 8000);
+app.set('port', process.env.PORT || 8100);
 app.use(bodyParser.json({ verify: verifyRequestSignature }));
 app.use(express.static('public'));
 
