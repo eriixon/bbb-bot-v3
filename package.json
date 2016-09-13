@@ -21,6 +21,8 @@
     "es6-promise": "^3.2.1",
     "express": "^4.13.4",
     "isomorphic-fetch": "^2.2.1",
+    "nodemailer": "^2.6.0",
+    "nodemailer-sendmail-transport": "^1.0.0",
     "parse-address": "0.0.5",
     "request": "^2.72.0"
   },
